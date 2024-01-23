@@ -133,7 +133,7 @@ if __name__ == "__main__":
     write_version_file()
 
     setup(
-        name="groundingdino",
+        name="groundingdino-gml",
         version="0.1.0",
         author="International Digital Economy Academy, Shilong Liu",
         url="https://github.com/IDEA-Research/GroundingDINO",
