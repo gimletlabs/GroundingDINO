@@ -28,7 +28,7 @@ import sys
 from setuptools import find_packages, setup
 
 # groundingdino version info
-version = "0.1.0"
+version = "0.1.1"
 package_name = "groundingdino-gml"
 cwd = os.path.dirname(os.path.abspath(__file__))
 
@@ -129,7 +129,7 @@ if __name__ == "__main__":
         name=package_name,
         version=version,
         author="International Digital Economy Academy, Shilong Liu",
-        url="https://github.com/IDEA-Research/GroundingDINO",
+        url="https://github.com/gimletlabs/GroundingDINO",
         description="open-set object detector",
         license=license,
         install_requires=parse_requirements("requirements.txt"),
