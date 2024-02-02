@@ -29,21 +29,14 @@ from setuptools import find_packages, setup
 
 # groundingdino version info
 version = "0.1.0"
-package_name = "groundingdino"
+package_name = "groundingdino-gml"
 cwd = os.path.dirname(os.path.abspath(__file__))
-
-
-sha = "Unknown"
 
 
 def write_version_file():
     version_path = os.path.join(cwd, "groundingdino", "version.py")
     with open(version_path, "w") as f:
         f.write(f"__version__ = '{version}'\n")
-        # f.write(f"git_version = {repr(sha)}\n")
-
-
-requirements = ["torch", "torchvision"]
 
 
 def parse_requirements(fname="requirements.txt", with_version=True):
@@ -133,8 +126,8 @@ if __name__ == "__main__":
     write_version_file()
 
     setup(
-        name="groundingdino-gml",
-        version="0.1.0",
+        name=package_name,
+        version=version,
         author="International Digital Economy Academy, Shilong Liu",
         url="https://github.com/IDEA-Research/GroundingDINO",
         description="open-set object detector",
