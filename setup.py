@@ -28,7 +28,7 @@ import sys
 from setuptools import find_packages, setup
 
 # groundingdino version info
-version = "0.1.1"
+version = "0.1.2"
 package_name = "groundingdino-gml"
 cwd = os.path.dirname(os.path.abspath(__file__))
 

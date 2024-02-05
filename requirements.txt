@@ -5,6 +5,6 @@ addict
 yapf
 timm
 numpy
-opencv-python
+opencv-python-headless
 supervision
 pycocotools
